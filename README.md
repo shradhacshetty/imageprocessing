@@ -2,11 +2,14 @@
 
 import cv2 
 image=cv2.imread('flower2.jpg') 
+
 cv2.imshow('Original',image) 
 cv2.waitKey(0) 
+
 gray_image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) 
 cv2.imwrite('flower1.jpg',gray_image)
 cv2.imshow('Grayscale',gray_image)
+
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
 
@@ -61,3 +64,19 @@ try:
    OUTPUT:
    
 ![image](https://user-images.githubusercontent.com/72332250/104433461-fa439b00-553e-11eb-839b-4213922b8b3f.png)
+
+3. Develop a Program to find the sum and mean of a set of images
+
+import cv2
+ image=cv2.imread('flower2.jpg')
+ 
+ cv2.imshow('Original',image)
+ cv2.waitKey(0) 
+ 
+gray_image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) cv2.imshow('Grayscale',gray_image) 
+
+cv2.waitKey(0) sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINARY) cv2.imshow('BinaryImage',binary_image)
+
+cv2.waitKey(0) 
+cv2.destroyAllWindows() 
+
