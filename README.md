@@ -80,3 +80,6 @@ cv2.waitKey(0) sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINA
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
 
+OUTPUT:
+![image](https://user-images.githubusercontent.com/72332250/104434090-abe2cc00-553f-11eb-8df3-b5e91b97d503.png)
+
