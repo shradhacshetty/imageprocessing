@@ -270,4 +270,4 @@ for i in range(0,axis+2):
     
  OUTPUT:
  
- 
+ ![image](https://user-images.githubusercontent.com/72332250/104442606-27e21180-554a-11eb-98a0-83ee1a1ab9b2.png)
