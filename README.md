@@ -148,4 +148,21 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104436112-0b41db80-5542-11eb-9fec-182377779a59.png)
 
 
+6.develop a program to create an image from 2d array
+Generate an array of Random Size
+
+import numpy, cv2
+img=numpy.zeros([200,200,3])
+
+img[:,:,0]=numpy.ones([200,200])*255
+img[:,:,1]=numpy.ones([200,200])*255
+img[:,:,2]=numpy.ones([200,200])*0
+
+cv2.imwrite('flower1.jpg',img)
+cv2.imshow('Color image',img)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+OUTPUT:
 
