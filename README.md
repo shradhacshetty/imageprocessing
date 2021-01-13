@@ -12,3 +12,8 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104431556-e008bd80-553c-11eb-8f07-3566ab5979a5.png)
 
 
+2. Develop a Program to Perform Linear Transformation on an Image
+a) Scaling
+
+
+
