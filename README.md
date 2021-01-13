@@ -34,6 +34,7 @@ OUTPUT:
 
 b) Rotation
 
+
 import cv2 import numpy as np  
    
 FILE_NAME = 'flower2.jpg' 
@@ -53,4 +54,4 @@ try:
    
    OUTPUT:
    
-
+![image](https://user-images.githubusercontent.com/72332250/104433461-fa439b00-553e-11eb-839b-4213922b8b3f.png)
