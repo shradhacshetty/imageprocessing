@@ -1,4 +1,4 @@
-#1.Develop a Program to display Gray Scale Image Using Read and Write Operation
+1.Develop a Program to display Gray Scale Image Using Read and Write Operation
 
 Description:Grayscaling is the process of converting an image from other color spaces e.g RGB, CMYK, HSV, etc. to shades of gray. It varies between complete black and complete white.
 Using OpenCV : OpenCV (Open Source Computer Vision) is a computer vision library that contains various functions to perform operations on pictures or videos. It was originally developed by Intel but was later maintained by Willow Garage and is now maintained by Itseez. This library is cross-platform that is it is available on multiple programming languages such as Python, C++ etc.
@@ -24,7 +24,7 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104432034-70470280-553d-11eb-9679-0f8a7de8ff44.png)
 
 
-#2. Develop a Program to Perform Linear Transformation on an Image
+2. Develop a Program to Perform Linear Transformation on an Image
 
 Description:
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
