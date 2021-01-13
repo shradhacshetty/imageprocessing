@@ -18,11 +18,11 @@ import cv2 import numpy as np
    
 FILE_NAME = 'flower2.jpg' try:  
      
-    # Read image from disk.  
+    
      
-    img = cv2.imread(FILE_NAME)     (height, width) = img.shape[:2]     cv2.imshow('gulaaaab.jpg', img)  
+   img = cv2.imread(FILE_NAME)     (height, width) = img.shape[:2]     cv2.imshow('gulaaaab.jpg', img)  
  
-    res = cv2.resize(img, (int(width / 2), int(height / 2)), interpolation = cv2.INTER_CUBIC)      # Write image back to disk.     
+   res = cv2.resize(img, (int(width / 2), int(height / 2)), interpolation = cv2.INTER_CUBIC)      # Write image back to disk.     
  cv2.imshow('poooo.jpg', res)      
 cv2.waitKey(0)    
 except IOError:  
