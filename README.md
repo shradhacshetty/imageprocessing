@@ -13,7 +13,9 @@ cv2.imshow('Original',image)
 cv2.waitKey(0) 
 
 gray_image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) 
+
 cv2.imwrite('flower1.jpg',gray_image)
+
 cv2.imshow('Grayscale',gray_image)
 
 cv2.waitKey(0) 
@@ -84,7 +86,7 @@ OUTPUT:
 
 
 # 3.Develop a Program to find the sum and mean of a set of images 
- # Create n number of images and read them from the directoryu and perform the operations
+ # Create n number of images and read them from the directory and perform the operations
  
  Description:
  Mean is most basic of all statistical measure. Means are often used in geometry and analysis; a wide range of means have been developed for these purposes. In contest of image processing filtering using mean is classified as spatial filtering and used for noise reduction.
