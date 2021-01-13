@@ -221,6 +221,7 @@ img[:,:,1]=numpy.ones([200,200])*255
 img[:,:,2]=numpy.ones([200,200])*0
 
 cv2.imwrite('flower1.jpg',img)
+
 cv2.imshow('Color image',img)
 
 cv2.waitKey(0)
