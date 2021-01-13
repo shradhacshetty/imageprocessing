@@ -151,7 +151,8 @@ cv2.imshow('Grayscale',gray_image)
 
 cv2.waitKey(0) 
 
-sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINARY) 
+sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINARY)
+
 cv2.imshow('BinaryImage',binary_image)
 
 cv2.waitKey(0) 
