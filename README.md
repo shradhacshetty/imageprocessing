@@ -124,7 +124,28 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104434090-abe2cc00-553f-11eb-8df3-b5e91b97d503.png)
 
 
- 
+5. Develop a program to convert the given color image to different color space
+
+import cv2 
+image=cv2.imread('flower2.jpg') cv2.imshow('Original',image) 
+cv2.waitKey(0) color_space1=cv2.cvtColor(image,cv2.COLOR_BGR2RGB) cv2.imshow('RGB',color_space1)
+ cv2.waitKey(0) 
+ import cv2
+image=cv2.imread('flower2.jpg')
+cv2.imshow('Original',image)
+cv2.waitKey(0)
+color_space1=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+cv2.imshow('RGB',color_space1)
+cv2.waitKey(0)
+color_space2=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
+cv2.imshow('HSV',color_space2)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+OUTPUT: 
+
+
 
 
 
