@@ -1,4 +1,4 @@
-1.Develop a Program to display Gray Scale Image Using Read and Write Operation
+# 1.Develop a Program to display Gray Scale Image Using Read and Write Operation
 
 Description:Grayscaling is the process of converting an image from other color spaces e.g RGB, CMYK, HSV, etc. to shades of gray. It varies between complete black and complete white.
 Using OpenCV : OpenCV (Open Source Computer Vision) is a computer vision library that contains various functions to perform operations on pictures or videos. It was originally developed by Intel but was later maintained by Willow Garage and is now maintained by Itseez. This library is cross-platform that is it is available on multiple programming languages such as Python, C++ etc.
@@ -24,12 +24,12 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104432034-70470280-553d-11eb-9679-0f8a7de8ff44.png)
 
 
-2. Develop a Program to Perform Linear Transformation on an Image
+# 2. Develop a Program to Perform Linear Transformation on an Image
 
 Description:
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
 
-a) Scaling
+# a) Scaling
 
 Description: Scaling operation increases/reduces size of an image.
 
@@ -45,7 +45,7 @@ try:
    cv2.imshow('gulaaaab.jpg', img)  
  
    res = cv2.resize(img, (int(width / 2), int(height / 2)), interpolation = cv2.INTER_CUBIC)      
-   # Write image back to disk.     
+   #Write image back to disk.     
    cv2.imshow('poooo.jpg', res)      
    cv2.waitKey(0)    
 except IOError:  
@@ -55,7 +55,7 @@ OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/72332250/104432916-5a860d00-553e-11eb-8559-e227f93725a9.png)
 
-b) Rotation
+# b) Rotation
 
 Description:Images can be rotated to any degree clockwise or otherwise. We just need to define rotation matrix listing rotation point, degree of rotation and the scaling factor.
 
@@ -83,8 +83,8 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104433461-fa439b00-553e-11eb-839b-4213922b8b3f.png)
 
 
-3.Develop a Program to find the sum and mean of a set of images 
- Create n number of images and read them from the directoryu and perform the operations
+# 3.Develop a Program to find the sum and mean of a set of images 
+ # Create n number of images and read them from the directoryu and perform the operations
  
  Description:
  Mean is most basic of all statistical measure. Means are often used in geometry and analysis; a wide range of means have been developed for these purposes. In contest of image processing filtering using mean is classified as spatial filtering and used for noise reduction.
@@ -126,7 +126,7 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104434897-a3d75c00-5540-11eb-9664-4f89b660d6c9.png)
 
 
-4. Convert Color Image to gray Scale to Binary Image
+# 4. Convert Color Image to gray Scale to Binary Image
 
 Description:
 BINARY IMAGE– The binary image as its name suggests, contain only two pixel elements i.e 0 & 1,where 0 refers to black and 1 refers to white. This image is also known as Monochrome.
@@ -154,7 +154,7 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104434090-abe2cc00-553f-11eb-8df3-b5e91b97d503.png)
 
 
-5. Develop a program to convert the given color image to different color space
+# 5. Develop a program to convert the given color image to different color space
 
 Description:
 Color spaces are a way to represent the color channels present in the image that gives the image that particular hue. There are several different color spaces and each has its own significance.
@@ -188,8 +188,8 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104436112-0b41db80-5542-11eb-9fec-182377779a59.png)
 
 
-6.develop a program to create an image from 2d array
-Generate an array of Random Size
+# 6.develop a program to create an image from 2d array
+# Generate an array of Random Size
 
 Description:
 Two dimensional array is an array within an array. It is an array of arrays. In this type of array the position of an data element is referred by two indices instead of one. So it represents a table with rows an dcolumns of data.
@@ -215,6 +215,6 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/72332250/104436823-e7cb6080-5542-11eb-9930-67a6765b3785.png)
 
 
-7) Finding Neighbours in a Matrix
+# 7) Finding Neighbours in a Matrix
 
 
