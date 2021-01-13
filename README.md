@@ -7,4 +7,8 @@ cv2.imshow('Grayscale',gray_image)
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
 
+OUTPUT:
+
+![image](https://user-images.githubusercontent.com/72332250/104431556-e008bd80-553c-11eb-8f07-3566ab5979a5.png)
+
 
