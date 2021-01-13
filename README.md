@@ -30,6 +30,6 @@ except IOError:
 
 OUTPUT:
 
-
+![image](https://user-images.githubusercontent.com/72332250/104432916-5a860d00-553e-11eb-8559-e227f93725a9.png)
 
 
