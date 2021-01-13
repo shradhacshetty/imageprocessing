@@ -65,7 +65,45 @@ try:
    
 ![image](https://user-images.githubusercontent.com/72332250/104433461-fa439b00-553e-11eb-839b-4213922b8b3f.png)
 
-3. Develop a Program to find the sum and mean of a set of images
+
+3.Develop a Program to find the sum and mean of a set of images 
+ Create n number of images and read them from the directoryu and perform the operations
+ 
+ import cv2
+import os
+
+path='E:\shradha\imagesip'
+
+imgs = []
+
+files= os.listdir(path)
+
+for file in files:
+    
+    fpat=path+"\\"+file
+
+    imgs.append(cv2.imread(fpat))
+    
+
+i=0
+
+for im in imgs:                                                
+#for i in range(len(files)):
+    
+   cv2.imshow(files[i],imgs[i])
+    
+   i=i+1;
+   cv2.imshow('mean',im/i)
+   mean=(im/i)
+   print(mean)
+   cv2.waitKey(0)
+    #cv2.destroyAllWindows()
+    
+OUTPUT:
+
+
+
+4. Convert Color Image to gray Scale to Binary Image
 
 import cv2
  image=cv2.imread('flower2.jpg')
@@ -81,5 +119,11 @@ cv2.waitKey(0)
 cv2.destroyAllWindows() 
 
 OUTPUT:
+
 ![image](https://user-images.githubusercontent.com/72332250/104434090-abe2cc00-553f-11eb-8df3-b5e91b97d503.png)
+
+
+ 
+
+
 
