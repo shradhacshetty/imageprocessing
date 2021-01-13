@@ -121,6 +121,7 @@ for im in imgs:
    mean=(im/i)
    print(mean)
    cv2.waitKey(0)
+   
     #cv2.destroyAllWindows()
     
 OUTPUT:
@@ -146,7 +147,8 @@ import cv2
  
 gray_image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) cv2.imshow('Grayscale',gray_image) 
 
-cv2.waitKey(0) sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINARY) cv2.imshow('BinaryImage',binary_image)
+cv2.waitKey(0) sqr,binary_image=cv2.threshold(gray_image,172,240,cv2.THRESH_BINARY) 
+cv2.imshow('BinaryImage',binary_image)
 
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
@@ -168,20 +170,21 @@ HSV color space: It stores color information in a cylindrical representation of 
 
 Program:
 
-import cv2 
-image=cv2.imread('flower2.jpg') cv2.imshow('Original',image) 
-cv2.waitKey(0) color_space1=cv2.cvtColor(image,cv2.COLOR_BGR2RGB) cv2.imshow('RGB',color_space1)
- cv2.waitKey(0) 
- import cv2
+
+ 
+import cv2
 image=cv2.imread('flower2.jpg')
 cv2.imshow('Original',image)
 cv2.waitKey(0)
+
 color_space1=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 cv2.imshow('RGB',color_space1)
 cv2.waitKey(0)
+
 color_space2=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 cv2.imshow('HSV',color_space2)
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 
