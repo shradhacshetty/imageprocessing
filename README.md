@@ -100,6 +100,7 @@ for im in imgs:
     #cv2.destroyAllWindows()
     
 OUTPUT:
+
 ![image](https://user-images.githubusercontent.com/72332250/104434897-a3d75c00-5540-11eb-9664-4f89b660d6c9.png)
 
 
