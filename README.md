@@ -235,7 +235,7 @@ OUTPUT:
 # 7) Finding Neighbours in a Matrix
 
 Description:
-
+Matrix, a set of numbers arranged in rows and columns so as to form a rectangular array. The numbers are called the elements, or entries, of the matrix. 
 
 Program:
 
@@ -356,6 +356,7 @@ for i in range(0,axis):
 # 9.Develop a Program to  Implement Negative Transformation of an Image
 
 Description:
+The second linear transformation is negative transformation, which is invert of identity transformation. In negative transformation, each value of the input image is subtracted from the L-1 and mapped onto the output image.
 
 Program:
 
@@ -379,6 +380,7 @@ Output:
 # Contrast of an Image
 
 Description:
+Contrast can be simply explained as the difference between maximum and minimum pixel intensity in an image.
 
 Program:
 
@@ -397,6 +399,7 @@ Output:
 # Thresholding Brightness
 
 Description:
+Brightness is a relative term. It depends on your visual perception. Since brightness is a relative term, so brightness can be defined as the amount of energy output by a source of light relative to the source we are comparing it to. In some cases we can easily say that the image is bright, and in some cases, its not easy to perceive
 
 Program:
 
@@ -428,6 +431,20 @@ Output:
 # 10.Develop a Program to Implement Power Law Transformation
 
 Description:
+There are further two transformation is power law transformations, that include nth power and nth root transformation. These transformations can be given by the expression:
+
+s=cr^γ
+
+This symbol γ is called gamma, due to which this transformation is also known as gamma transformation.
+
+Variation in the value of γ varies the enhancement of the images. Different display devices / monitors have their own gamma correction, that’s why they display their image at different intensity.
+
+This type of transformation is used for enhancing images for different type of display devices. The gamma of different display devices is different. For example Gamma of CRT lies in between of 1.8 to 2.5, that means the image displayed on CRT is dark.
+
+Correcting gamma.
+s=cr^γ
+
+s=cr^(1/2.5)
 
 Program:
 
