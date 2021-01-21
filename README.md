@@ -364,10 +364,7 @@ img_original = cv2.imread('flower2.jpg', 1)
   
 plt.imshow(img_original) 
 plt.show() 
-
-
 cv2.waitKey(0)
-# Negate the original image 
 img_neg = 255 - img_original 
   
 plt.imshow(img_neg) 
@@ -376,6 +373,7 @@ plt.show()
 cv2.waitKey(0)
 
 Output:
+![image](https://user-images.githubusercontent.com/72332250/105327799-35b81800-5b84-11eb-8b0d-ade5685ed27a.png)
 
 
 # Contrast of an Image
