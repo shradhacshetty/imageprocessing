@@ -423,6 +423,8 @@ if cv2.waitKey(0) & 0xff == 27:
 
 Output:
 
+![image](https://user-images.githubusercontent.com/72332250/105329347-e96dd780-5b85-11eb-9e4d-e18de96bf320.png)
+
 # 10.Develop a Program to Implement Power Law Transformation
 
 Description:
