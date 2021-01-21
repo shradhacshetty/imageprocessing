@@ -350,3 +350,94 @@ for i in range(0,axis):
 
 ![image](https://user-images.githubusercontent.com/72332250/104445223-bc01a800-554d-11eb-9ace-4f58e4f913a7.png)
 ![image](https://user-images.githubusercontent.com/72332250/104445281-cc198780-554d-11eb-80fe-b99791884b82.png)
+
+
+
+# 9.Develop a Program to  Implement Negative Transformation of an Image
+
+Description:
+
+Program:
+
+import cv2 
+#import matplotlib.pyplot as plt 
+  
+# Read an image 
+img_original = cv2.imread('flower2.jpg', 1) 
+  
+plt.imshow(img_original) 
+plt.show() 
+
+
+cv2.waitKey(0)
+# Negate the original image 
+img_neg = 255 - img_original 
+  
+plt.imshow(img_neg) 
+plt.show()
+
+cv2.waitKey(0)
+
+Output:
+
+
+# Contrast of an Image
+
+Description:
+
+Program:
+
+from PIL import Image,ImageEnhance
+img=Image.open('Flower2.jpg')
+img.show()
+img=ImageEnhance.Color(img)
+img.enhance(2.0).show()
+
+Output:
+
+# Thresholding Brightness
+
+Description:
+
+Program:
+
+import cv2  
+import numpy as np 
+image1 = cv2.imread('flower2.jpg')  
+
+img = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
+
+ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
+ret, thresh2 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY_INV)
+ret, thresh3 = cv2.threshold(img, 120, 255, cv2.THRESH_TRUNC)
+ret, thresh4 = cv2.threshold(img, 120, 255, cv2.THRESH_TOZERO)
+ret, thresh5 = cv2.threshold(img, 120, 255, cv2.THRESH_TOZERO_INV)
+
+cv2.imshow('Binary Threshold', thresh1)
+cv2.imshow('Binary Threshold Inverted', thresh2)
+cv2.imshow('Truncated Threshold', thresh3)
+cv2.imshow('Set to 0', thresh4)
+cv2.imshow('Set to 0 Inverted', thresh5)
+
+if cv2.waitKey(0) & 0xff == 27:  
+    cv2.destroyAllWindows() 
+
+Output:
+
+# 10.Develop a Program to Implement Power Law Transformation
+
+Description:
+
+Program:
+
+import numpy as np
+import cv2
+img = cv2.imread('flower2.jpg')
+gamma_two_point_two = np.array(255*(img/255)**2.2,dtype='uint8')
+gamma_point_four = np.array(255*(img/255)**0.4,dtype='uint8')
+
+img3 = cv2.hconcat([gamma_two_point_two,gamma_point_four])
+cv2.imshow('a2',img3)
+cv2.waitKey(0)
+
+Output:
