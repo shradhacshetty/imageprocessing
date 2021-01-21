@@ -390,6 +390,8 @@ img.enhance(2.0).show()
 
 Output:
 
+![image](https://user-images.githubusercontent.com/72332250/105328243-b24af680-5b84-11eb-916d-e8516718c467.png)
+
 # Thresholding Brightness
 
 Description:
