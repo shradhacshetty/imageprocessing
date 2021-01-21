@@ -472,3 +472,13 @@ The x axis contains event whose frequency you have to count.
 The y axis contains frequency.
 The different heights of bar shows different frequency of occurrence of data.
 Histogram of an image, like other histograms also shows frequency. But an image histogram, shows frequency of pixels intensity values. In an image histogram, the x axis shows the gray level intensities and the y axis shows the frequency of these intensities.
+
+Program:
+
+import cv2 
+from matplotlib import pyplot as plt 
+img = cv2.imread('flower2.jpg',0) 
+plt.hist(img.ravel(),256,[0,256]) 
+plt.show()
+
+Output:
