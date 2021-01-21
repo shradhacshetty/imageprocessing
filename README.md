@@ -482,3 +482,5 @@ plt.hist(img.ravel(),256,[0,256])
 plt.show()
 
 Output:
+
+![image](https://user-images.githubusercontent.com/72332250/105335108-7fa4fc00-5b8c-11eb-9ca0-917420b07a3a.png)
