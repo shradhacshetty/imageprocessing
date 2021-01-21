@@ -392,6 +392,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/72332250/105328243-b24af680-5b84-11eb-916d-e8516718c467.png)
 
+![image](https://user-images.githubusercontent.com/72332250/105328448-e7574900-5b84-11eb-9d03-4a123e2b189a.png)
+
 # Thresholding Brightness
 
 Description:
