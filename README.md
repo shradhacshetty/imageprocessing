@@ -360,9 +360,6 @@ Description:
 Program:
 
 import cv2 
-#import matplotlib.pyplot as plt 
-  
-# Read an image 
 img_original = cv2.imread('flower2.jpg', 1) 
   
 plt.imshow(img_original) 
