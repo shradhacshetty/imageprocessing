@@ -461,3 +461,14 @@ cv2.waitKey(0)
 Output:
 
 ![image](https://user-images.githubusercontent.com/72332250/105329652-394c9e80-5b86-11eb-8dc9-4a06a0c1209a.png)
+
+
+# 11.Develop a program to display Histogram of an Image
+
+Description:
+A histogram is a graph. A graph that shows frequency of anything. Usually histogram have bars that represent frequency of occurring of data in the whole data set.
+A Histogram has two axis the x axis and the y axis.
+The x axis contains event whose frequency you have to count.
+The y axis contains frequency.
+The different heights of bar shows different frequency of occurrence of data.
+Histogram of an image, like other histograms also shows frequency. But an image histogram, shows frequency of pixels intensity values. In an image histogram, the x axis shows the gray level intensities and the y axis shows the frequency of these intensities.
